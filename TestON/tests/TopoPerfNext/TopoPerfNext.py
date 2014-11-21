@@ -75,9 +75,8 @@ class TopoPerfNext:
             pull_result = main.TRUE
             main.log.info("Skipped git checkout and pull")
 
-        #TODO: Uncomment when wiki posting works
-        #main.log.report("Commit information - ")
-        #main.ONOSbench.get_version(report=True)
+        main.log.report("Commit information - ")
+        main.ONOSbench.get_version(report=True)
 
         main.step("Using mvn clean & install")
         #mvn_result = main.ONOSbench.clean_install()
