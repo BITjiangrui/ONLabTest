@@ -3,7 +3,7 @@
     <ENV>
     <cellName>HA</cellName>
     </ENV>
-    <Git>False</Git>
+    <Git>True</Git>
     <num_controllers> 7 </num_controllers>
 
     <CTRL>
